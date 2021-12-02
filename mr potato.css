@@ -1,0 +1,126 @@
+#fondo{
+  border-radius: 5px;
+  border: thin solid orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.funko{
+position: relative;
+margin: 0 auto;
+top: 10px;
+height: 16cm;
+width: 16cm;
+border: thin solid white;
+}
+.cabeza{
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  top: 1px;
+  left: 10px;
+  right: 10px;
+  margin: 0 auto;
+  background-color: #f3d630;
+  border-radius: 20%;
+}
+.ojos{
+  position: relative;
+  height: px;
+  width: px;
+  top: px;
+  left: px;
+  right: px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 20%;
+}
+.ojo_der{
+position: absolute;
+height: 80px;
+width: 80px;
+top: 70px;
+left: 70px;
+right: px;
+margin: 0 auto;
+background-color: black;
+border-radius: 50%;}
+.ojo_izq{
+position: absolute;
+height: 80px;
+width: 80px;
+top: 70px;
+left: 260px;
+right: px;
+margin: 0 auto;
+background-color: black;
+border-radius: 50%;}
+.boca
+{
+  position: relative;
+  height: 20px;
+  width: 100px;
+  top: 200px;
+  left: 5px;
+  right: px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 50%;
+}
+.cuerpo{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 300px;
+  left: 10px;
+  right: 10px;
+  margin: 0 auto;
+  background-color: #f3d630;
+  border-radius: 10%;
+}
+.cuerpopocho
+{
+  position: absolute;
+  height: 280px;
+  width: 200px;
+  top: 310px;
+  left: 10px;
+  right: 10px;
+  margin: 0 auto;
+  background-color: #f3dc7f;
+  border-radius: 10%;
+}
+.brazo {
+position: relative;
+height: px;
+width: px;
+top: px;
+left: px;
+right: px;
+margin: 0 auto;
+background-color: black;
+border-radius: 20%;
+}
+.brazo_d{
+position: absolute;
+height: 80px;
+width: 80px;
+top: 70px;
+left: 70px;
+right: px;
+margin: 0 auto;
+background-color: black;
+border-radius: 50%;}
+.brazo_i{
+position: absolute;
+height: 80px;
+width: 80px;
+top: 350px;
+left: 70px;
+right: px;
+margin: 0 auto;
+background-color: black;
+border-radius: 50%;}
