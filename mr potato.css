@@ -26,17 +26,20 @@ border: thin solid white;
   margin: 0 auto;
   background-color: #f3d630;
   border-radius: 20%;
+  animation: mover-cabeza 5s linear 0s infinite alternate;
+}
+@keyframes mover-cabeza {
+0% { left: 10em; }
+25% { left: 2em; }
+50% { left: 0; right: 0; }
+75% { right: 2em; }
+100% { right: 10em; }
+
+}
+
 }
 .ojos{
-  position: relative;
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  right: px;
-  margin: 0 auto;
-  background-color: black;
-  border-radius: 20%;
+
 }
 .ojo_der{
 position: absolute;
@@ -47,7 +50,20 @@ left: 70px;
 right: px;
 margin: 0 auto;
 background-color: black;
-border-radius: 50%;}
+border-radius: 50%;
+animation: epilepsia 5s linear 0s infinite alternate;
+
+}
+
+@keyframes epilepsia {
+  0%   {background-color:#00fff6; }
+  25%  {background-color:#ff0534; }
+  50%  {background-color:blue;}
+  75%  {background-color:green; }
+  100% {background-color:red;}
+
+  }
+
 .ojo_izq{
 position: absolute;
 height: 80px;
@@ -57,7 +73,16 @@ left: 260px;
 right: px;
 margin: 0 auto;
 background-color: black;
-border-radius: 50%;}
+border-radius: 50%;
+animation: epilepsia 5s linear 0s infinite alternate; 
+}
+@keyframes epilepsia {
+  0%   {background-color:#00fff6; }
+  25%  {background-color:#ff0534; }
+  50%  {background-color:blue;}
+  75%  {background-color:green; }
+  100% {background-color:red;}
+}
 .boca
 {
   position: relative;
@@ -108,19 +133,19 @@ border-radius: 20%;
 position: absolute;
 height: 80px;
 width: 80px;
-top: 70px;
-left: 70px;
-right: px;
-margin: 0 auto;
-background-color: black;
-border-radius: 50%;}
-.brazo_i{
-position: absolute;
-height: 80px;
-width: 80px;
 top: 350px;
 left: 70px;
-right: px;
+right: 400px;
 margin: 0 auto;
-background-color: black;
-border-radius: 50%;}
+background-color: orange;
+border-radius: 0%;}
+.brazo_i{
+position: absolute;
+height: 100px;
+width: 200px;
+top: 350px;
+left: 70px;
+right: -400px;
+margin: 0 auto;
+background-color: orange;
+border-radius: 0%;}
