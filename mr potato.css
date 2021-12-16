@@ -24,7 +24,7 @@ border: thin solid white;
   left: 10px;
   right: 10px;
   margin: 0 auto;
-  background-color: #f3d630;
+  background-color: #ff9300;
   border-radius: 20%;
   animation: mover-cabeza 5s linear 0s infinite alternate;
 }
@@ -74,7 +74,7 @@ right: px;
 margin: 0 auto;
 background-color: black;
 border-radius: 50%;
-animation: epilepsia 5s linear 0s infinite alternate; 
+animation: epilepsia 5s linear 0s infinite alternate;
 }
 @keyframes epilepsia {
   0%   {background-color:#00fff6; }
@@ -103,7 +103,7 @@ animation: epilepsia 5s linear 0s infinite alternate;
   left: 10px;
   right: 10px;
   margin: 0 auto;
-  background-color: #f3d630;
+  background-color: #ff9300;
   border-radius: 10%;
 }
 .cuerpopocho
@@ -131,21 +131,89 @@ border-radius: 20%;
 }
 .brazo_d{
 position: absolute;
-height: 80px;
-width: 80px;
-top: 350px;
-left: 70px;
+height: 50px;
+transform: rotate(120deg);
+width: 200px;
+top: 400px;
+left: 30px;
 right: 400px;
 margin: 0 auto;
 background-color: orange;
 border-radius: 0%;}
 .brazo_i{
 position: absolute;
-height: 100px;
+  transform: rotate(40deg);
+height: 50px;
 width: 200px;
-top: 350px;
+top: 380px;
 left: 70px;
-right: -400px;
+right: -315px;
 margin: 0 auto;
 background-color: orange;
+border-radius: 0%;}
+.pierna {
+position: relative;
+height: px;
+width: px;
+top: px;
+left: px;
+right: px;
+margin: 0 auto;
+background-color: black;
+border-radius: 20%;
+}
+.pierna_i{
+position: absolute;
+height: 100px;
+transform: rotate(0deg);
+width: 100px;
+top: 600px;
+left: 170px;
+right: 400px;
+margin: 0 auto;
+background-color: orange;
+border-radius: 0%;}
+.pierna_d{
+position: absolute;
+  transform: rotate(0deg);
+height: 100px;
+width: 100px;
+top: 600px;
+left: 70px;
+right: -105px;
+margin: 0 auto;
+background-color: orange;
+border-radius: 0%;}
+.garra {
+position: relative;
+height: px;
+width: px;
+top: px;
+left: px;
+right: px;
+margin: 0 auto;
+background-color: black;
+border-radius: 20%;
+}
+.garra_d{
+position: absolute;
+height: 10px;
+transform: rotate(120deg);
+width: 10px;
+top: 500px;
+left: 30px;
+right: 440px;
+margin: 0 auto;
+background-color: white;
+border-radius: 0%;}
+.garra_i{
+position: absolute;
+  transform: rotate(4deg);
+height: 10px;
+width: 10px;
+top: 380px;
+left: 70px;
+right: -315px;
+margin: 0 auto;
+background-color: white;
 border-radius: 0%;}
